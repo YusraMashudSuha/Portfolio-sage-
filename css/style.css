@@ -1,0 +1,162 @@
+/* common css start  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* common css end */
+
+
+
+/* banner css start  */
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FDF6ED;
+    transition: .4s;
+}
+
+.navbar a:hover {
+    color: #344b2f;
+
+}
+
+#bannerpart {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.overly {
+    background: #5c5c5b67;
+    padding: 250px 0;
+}
+
+.indextext p {
+    color: black;
+}
+
+.indextext h1 {
+    color: #FDF6ED;
+    font-family: "Spirax", system-ui;
+}
+
+/* banner css end */
+
+
+
+/* footer css start  */
+#footer {
+    text-align: center;
+    background: #A1BC98;
+    padding: 60px 20px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: #FDF6ED;
+}
+
+/* footer css end */
+
+
+
+/* service css start  */
+.servicebox {
+    padding: 60px 50px;
+    background: #FDF6ED;
+    border: solid 3px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.servicebox h3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #778873;
+}
+
+.servicebox h4 {
+    color: #7e867c8a;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.servicebox p {
+    color: #A1BC98;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* service css end */
+
+
+
+/* common css start  */
+.clientbox a {
+    padding: 40px 0;
+}
+
+.comments {
+    padding: 30px 0;
+    background: #a1bc9848;
+}
+
+.comments p {
+    color: #778873;
+    font-family: "Playfair Display", serif;
+}
+
+/* common css end */
+
+
+
+/* common css start  */
+.porttxt h2 {
+    font-weight: 700;
+    color: #fdf6edd3;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+/* common css end */
