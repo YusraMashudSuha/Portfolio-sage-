@@ -141,10 +141,19 @@ p {
 }
 
 .comments p {
-    color: #778873;
+    color: black;
     font-family: "Playfair Display", serif;
 }
-
+.commenthead h3{
+    text-transform: uppercase;
+    color: #FDF6ED;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: "Playfair Display", serif;
+}
 /* common css end */
 
 
